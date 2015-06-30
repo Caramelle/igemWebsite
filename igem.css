@@ -1,0 +1,103 @@
+<html>
+
+	<!-- Start of CSS-->
+		<style type="text/css">
+
+		/* PAGE LAYOUT */
+
+		/* Change Background color*/
+			body { 
+				background-color: transparent;
+			}
+                #globalWrapper, #content {		
+		width: 100%;
+		height: 100%;
+		border: 0px;
+		background-color: transparent;
+		margin: 0px;
+		padding: 0px;
+		font-size: 100%;
+	}
+	
+	html, body, .wrapper {		
+		width: 100%;
+		height: 100%;
+		background-color: transparent;
+	}
+
+	.navbar {
+		margin: 0 auto;
+		margin-top: 1em;
+		padding: 1em;
+		border-radius: 10px;
+	}
+		
+		</style>
+	<!-- End of CSS -->
+
+
+		<!-- Start of the template html elements. -->
+		<div id ="content"><!--The closing tag for mainContainer should be placed at the bottom of each content page.-->
+
+
+			<div id="bannerContainer">
+                                <img src="http://2015.igem.org/wiki/images/a/ac/Team_Edinburgh_banner.jpg" alt= "Edinburgh's banner">
+				<!--<br><br>
+				<h2> Add a banner to your wiki! </h2>
+				
+				<p>You can make the image 980px  by  200px</p>
+				<p> Remember to call the file: "<i>Team_Edinburgh_banner.jpg</i>" </p>-->
+			</div>
+
+			<!-- Start of menu -->
+			<div id="navbar">
+
+				<!-- This list is your menu, every list item is a menu button and nested listed become submenu buttons -->
+				 <ul>
+					<a href="http://2015.igem.org/Team:Edinburgh"><li>HOME</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Team"><li>TEAM</li></a>
+
+					<a href="#"><li>PROJECT
+            					<ul>
+							<a href="http://2015.igem.org/Team:Edinburgh/Description"><li>Description</li></a>
+							<a href="http://2015.igem.org/Team:Edinburgh/Experiments"><li>Experiments &amp; Protocols</li></a>  
+							<a href="http://2015.igem.org/Team:Edinburgh/Results"><li>Results</li></a>  
+							<a href="http://2015.igem.org/Team:Edinburgh/Design"><li>Design</li></a>
+						</ul>
+					</li></a>
+
+					<a href="#"><li>PARTS
+            					<ul>
+							<a href="http://2015.igem.org/Team:Edinburgh/Parts"><li>Team Parts</li></a>
+							<a href="http://2015.igem.org/Team:Edinburgh/Basic_Part"><li>Basic Parts</li></a>  
+							<a href="http://2015.igem.org/Team:Edinburgh/Composite_Part"><li>Composite Parts</li></a>
+							<a href="http://2015.igem.org/Team:Edinburgh/Part_Collection"><li>Part Collection</li></a>  
+						</ul>
+					</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Notebook"><li>NOTEBOOK</li></a>
+       
+					<a href="http://2015.igem.org/Team:Edinburgh/Attributions"><li>ATTRIBUTIONS</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Collaborations"><li>COLLABORATIONS</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Practices"><li>HUMAN PRACTICES</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Safety"><li>SAFETY</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Modeling"><li>MODELING</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Measurement"><li>MEASUREMENT</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Software"><li>SOFTWARE</li></a>
+
+					<a href="http://2015.igem.org/Team:Edinburgh/Entrepreneurship"><li>ENTREPRENEURSHIP</li></a>
+
+				 </ul>
+			</div>
+			<!-- End of menu  -->
+
+			<!-- Start of content -->
+			<div id="contentContainer"> <!--The closing tag for contentContainer should be placed at the bottom of each content page.-->
+</html>
