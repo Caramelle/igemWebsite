@@ -25,6 +25,34 @@
 			font-size: 100%;
 		}
 
+    .deletesuccess
+    {
+      width:100%;
+      height:100%;
+      border: 0px;
+      background-color: #777;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .deletesuccess h1 
+    {
+      font-weight: 300;
+      line-height: 1;
+      text-align: center;
+      letter-spacing: -1px;
+      width: 100%;
+      font-size: 2.8rem;
+      color: #fff;
+      letter-spacing: 0.04em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+
+    }
+
 /*Navigation menu */
 		.navbar-wrapper 
 		{
@@ -55,20 +83,20 @@
 /*Carusel*/
   .carousel 
   {
-    height: 500px;
+    height: 300px;
     margin-bottom: 10px;
   }
 /* Since positioning the image, we need to help out the caption */
   .carousel-caption 
  {
     z-index: 10;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   /* Declare heights because of positioning of img element */
   .carousel .item
   {
-    height: 500px;
+    height: 300px;
     background-color: #777;
   }
   .carousel-inner > .item > img 
@@ -77,7 +105,7 @@
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 500px;
+    height: 300px;
   }
 
 
@@ -206,6 +234,18 @@ img {
   width: 33.33%;
   max-width: 500px;
 }
+.fourth-panel
+{
+  position: absolute;
+  background: #f4decb;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  width: 33.33%;
+  max-width: 500px;
+}
 /*
 stylize any heading tags withing white-panel below
 */
@@ -264,6 +304,8 @@ stylize any heading tags withing white-panel below
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
+
 }
 .second-panel h1 a {
   color: #A92733;
@@ -301,6 +343,38 @@ stylize any heading tags withing white-panel below
   color: #A92733;
 }
 .third-panel:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  margin-top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.fourth-panel-panel h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2.8rem;
+  color: #000;
+  letter-spacing: 0.04em;
+}
+
+.fourth-panel p{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #a1835c;
+  letter-spacing: 0.04em;
+  font-family: "Arial", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fourth-panel h1 a {
+  color: #A92733;
+}
+.fourth-panel:hover {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   margin-top: -5px;
   -webkit-transition: all 0.3s ease-in-out;
