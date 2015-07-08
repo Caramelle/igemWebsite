@@ -36,7 +36,8 @@
       padding: 0px;
     }
 
-    .deletesuccess h1, h2, h3, h4
+    .deletesuccess h1
+
     {
       font-weight: 300;
       line-height: 1;
@@ -79,17 +80,17 @@
 		{
   			width: auto;
 		}
-		
+
 
   .col-md-4
   {
-    height: 500px;
+    height: 700px;
   }
 
   .col-md-4:hover 
   {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -5px;
+  margin-top: -5px; 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -99,7 +100,6 @@
   .col-md-4 h1
   {
     text-align: center;
-    vertical-align: top;
     width: 100%;
     font-size: 2.8rem;
     color: #A92733;
@@ -118,242 +118,6 @@
   }
 
 
-    #partner 
-    {
-      background-color: #fff;
-      background-size: 100%;
-      width: 100%;
-    }
-
-    #partner 
-    {
-      color: #5a5a5a;
-      text-align: center;
-    }
-
-    #partner h2, 
-    #partner h3 
-    {
-      color: #fff;
-    }
-
-    .partners ul 
-    {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .partners ul li
-    {
-      display: inline-block;
-      float: left;
-      width: 20%;
-    }
-
-    #home 
-    {
-      background: #FFF;
-      margin-left: auto;
-      width: 100%;
-    }
-
-
-  }
-/* Tiles */
-
-#pinBoot {
-  position: relative;
-  max-width: 100%;
-  width: 100%;
-  background-color: transparent;
-}
-img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-.first-panel {
-  position: absolute;
-  background: #f8eee7;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  vertical-align: top;
-  width: 33.33%;
-  max-width: 500px;
-  height: 300px;
-}
-
-.second-panel
-{
-  position: absolute;
-  background: #f4e7d8;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  vertical-align: top;
-  width: 33.33%;
-  max-width: 500px;
-  height: 300 px;
-}
-.third-panel
-{
-  position: absolute;
-  background: #f4decb;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  vertical-align: top;
-  width: 33.33%;
-  max-width: 500px;
-  height: 300px;
-}
-.fourth-panel
-{
-  position: absolute;
-  background: #f4decb;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  display: inline-block;
-  vertical-align: top;
-  float: left;
-  width: 33.33%;
-  max-width: 500px;
-}
-/*
-stylize any heading tags withing white-panel below
-*/
-
-.first-panel h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 2.8rem;
-  color: #000;
-  letter-spacing: 0.04em;
-}
-.first-panel h1 a {
-  color: #A92733;
-}
-
-.first-panel p{
-  text-align: justify;
-  font-size: 1.8rem;
-  color: #a1835c;
-  letter-spacing: 0.04em;
-  font-family: "Arial", Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.first-panel:hover {
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-
-.second-panel h1 
-{
-  text-align: center;
-  width: 100%;
-  font-size: 2.8rem;
-  color: #000;
-  letter-spacing: 0.04em;
-}
-
-.second-panel p
-{
-  text-align: justify;
-  font-size: 1.8rem;
-  color: #a1835c;
-  letter-spacing: 0.04em;
-  font-family: "Arial", Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-
-
-}
-.second-panel h1 a {
-  color: #A92733;
-}
-.second-panel:hover {
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.third-panel h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 2.8rem;
-  color: #000;
-  letter-spacing: 0.04em;
-}
-
-.third-panel p{
-  text-align: justify;
-  font-size: 1.8rem;
-  color: #a1835c;
-  letter-spacing: 0.04em;
-  font-family: "Arial", Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.third-panel h1 a {
-  color: #A92733;
-}
-.third-panel:hover {
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.fourth-panel-panel h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 2.8rem;
-  color: #000;
-  letter-spacing: 0.04em;
-}
-
-.fourth-panel p{
-  text-align: center;
-  font-size: 1.8rem;
-  color: #a1835c;
-  letter-spacing: 0.04em;
-  font-family: "Arial", Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.fourth-panel h1 a {
-  color: #A92733;
-}
-.fourth-panel:hover {
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
 /*Responsive CSS */
 
 		@media (min-width: 768px) 
@@ -379,26 +143,4 @@ stylize any heading tags withing white-panel below
   			{
     			border-radius: 4px;
   			}
-
-  			/* Bump up size of carousel content */
-  			.carousel-caption p 
-  			{
-    			margin-bottom: 10px;
-    			font-size: 21px;
-    			line-height: 1.4;
-  			}
-
-  			.featurette-heading
-  			{
-    			font-size: 50px;
-  			}
-		}
-
-
-		@media (min-width: 992px) 
-		{
-  			.featurette-heading 
-  			{
-    			margin-top: 120px;
-  			}
-		}
+    }
