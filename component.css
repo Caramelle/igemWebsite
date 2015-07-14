@@ -1,0 +1,190 @@
+*,
+*:after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* General styles and layout */
+
+body {
+	background: #fff;
+	color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+	overflow: hidden;
+	/* we don't want the pseudo-elements sticking out */
+}
+
+.container svg {
+	display: block;
+}
+
+section {
+	position: relative;
+	padding: 10em 10%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+section h2 {
+	margin: 0;
+	padding: 0;
+	color: #A92733;
+	font-size: 2.8em;
+	font-weight: 400;
+}
+
+section p {
+	color: #fff;
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+
+.text:first-child {
+	text-align: right;
+}
+
+.text:nth-child(2) {
+	text-align: left;
+}
+
+.col-2 .column {
+	width: 49%;
+}
+
+.col-3 .column {
+	padding: 0 1%;
+	width: 33%;
+	text-align: center;
+}
+
+.col-3 .column p {
+	padding: 1.4em;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.icon {
+	display: block;
+	width: 2em;
+	height: 2em;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.1);
+	color: #fff;
+	text-align: center;
+	font-size: 8em;
+	line-height: 2em;
+	margin: 0 auto;
+}
+
+section.color h2 {
+	color: color: #A92733;;
+}
+
+.color {
+	background: #777;
+}
+
+/*** Individual section styles and separators ***/
+
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+	position: absolute;
+	content: '';
+	pointer-events: none;
+}
+
+
+/* Half Circle */
+.ss-style-halfcircle::before,
+.ss-style-halfcircle::after {
+	left: 50%;
+	z-index: 10;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: inherit;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.ss-style-halfcircle::before {
+	top: -50px;
+}
+
+.ss-style-halfcircle::after {
+	bottom: -50px;
+}
+
+/* Big Triangle */
+svg#bigTriangleColor {
+	pointer-events: none;
+}
+
+#bigTriangleColor path {
+	fill: #fff;
+	stroke: #fff;
+	stroke-width: 2;
+}
+
+/* Curves */
+#curveUpColor path,
+#curveDownColor path {
+	fill: #3498db;
+	stroke: #3498db;
+}
+
+/* Big half circle */
+#bigHalfCircle path {
+	fill: #3498db;
+	stroke: #3498db;
+}
+
+
+
+
+/* Clouds */
+#clouds path {
+	fill: #ecf0f1;
+	stroke: #ecf0f1;
+}
+
+/* Media Queries for the layout */
+@media screen and (max-width: 68em) {
+	section {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 54em) {
+	.column {
+		display: block;
+		width: 100% !important;
+	}
+
+	.text:first-child,
+	.text:nth-child(2) {
+		text-align: center;
+	}
+
+	.icon {
+		margin: 0 auto;
+	}
+
+	.col-2 .column:first-child .icon {
+		margin: 0 auto 50px;
+	}
+
+	.col-2 .column:nth-child(2) .icon {
+		margin: 50px auto 0;
+	}
+}
