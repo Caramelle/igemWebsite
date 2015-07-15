@@ -106,6 +106,24 @@ p {
   background-color: #000; 
 }
 
+#overlay h2
+{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+
+}
+
+#overlay p{
+    text-align: center;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
 /*foreword*/
 
 
