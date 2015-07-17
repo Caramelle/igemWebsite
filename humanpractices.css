@@ -44,7 +44,6 @@ p {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: #fff;
     background-color: #000;
@@ -96,7 +95,6 @@ p {
 }
 
 #overlay:target{
-    display: block;
   position: fixed;
   top: 0;
   left: 0;
