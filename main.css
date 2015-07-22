@@ -34,6 +34,7 @@
       background-color: #777;
       margin: 0px;
       padding: 0px;
+      z-index: 30;
     }
 
     .deletesuccess h1
@@ -54,6 +55,8 @@
       transform: translate(-50%, -50%)
 
     }
+
+
 
 /*Navigation menu */
 		.navbar-wrapper 
@@ -81,7 +84,10 @@
   			width: auto;
 		}
 
-
+.container-fluid
+{
+  
+}
   .col-md-4
   {
     height: 700px;
@@ -159,9 +165,5 @@
     			padding-left: 0;
   			}
 
-  			/* The navbar becomes detached from the top, so we round the corners */
-  			.navbar-wrapper .navbar 
-  			{
-    			border-radius: 4px;
-  			}
+
     }
