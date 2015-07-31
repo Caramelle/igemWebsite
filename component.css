@@ -27,7 +27,7 @@ section {
 	position: relative;
 	padding: 10em 10%;
 	background: #000;
-	color: #fff;
+	color: #777;
 	text-align: center;
 }
 
@@ -74,8 +74,6 @@ section p {
 
 .icon {
 	display: block;
-	width: 2em;
-	height: 2em;
 	border-radius: 50%;
 	background: rgba(0,0,0,0.1);
 	color: #fff;
@@ -136,12 +134,7 @@ svg#bigTriangleColor {
 	stroke-width: 2;
 }
 
-/* Curves */
-#curveUpColor path,
-#curveDownColor path {
-	fill: #3498db;
-	stroke: #3498db;
-}
+
 
 /* Big half circle */
 #bigHalfCircle path {

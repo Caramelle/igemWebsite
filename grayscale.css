@@ -37,6 +37,11 @@ p {
 }
 
 @media(min-width:768px) {
+        .intro {
+        height: 100%;
+        padding: 0;
+        box-shadow: 0 -200px 200px #000 inset;
+    }
     p {
         margin: 0 0 35px;
         font-size: 20px;

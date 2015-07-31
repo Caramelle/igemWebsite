@@ -2,7 +2,7 @@
 		{ 
       padding-top: 70px;
 			padding-bottom: 40px;
-  		color: #5a5a5a;
+  		color: black;
 		}
     #globalWrapper
     {		
@@ -109,7 +109,7 @@
 
   .col-md-4 p
   {
-    text-align: center;
+    text-align: justify;
     font-size: 1.8rem;
     color: #a1835c;
     letter-spacing: 0.04em;
